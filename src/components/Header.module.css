@@ -1,0 +1,29 @@
+.header {
+    background: var(--gray-800);
+    display: flex;
+    justify-content: center;
+    padding: 1.25rem 0; /* Em cima e em baixo (1.25rem) e as laterais (0) */
+}
+
+.header img { /*Estilizar a imagem do Header (ignite-logo.svg) */
+    height: 2rem; /* 32px */
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+1rem = 16px
+0.25rem = 4px
+1.25rem = 20px
+
+*/
+

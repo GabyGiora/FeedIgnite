@@ -1,0 +1,20 @@
+.wrapper {
+    max-width: 70rem;
+    margin: 2rem auto;
+    padding: 0 1rem;
+
+    display: grid;
+    grid-template-columns: 256px 1fr; /*A minha primeira coluna que é a da sidebar vai ter uma  largura fixa de 256px e a Segunda coluna que é nosso conteúdo vai se adapitar para quanto couber na tela */
+    gap: 2rem; /* Gap = espaçamento entre as colunas _ de 32 px (16 x 2) _ */
+    align-items: flex-start; /* Vai fazer com que as duas colunas (sidebar e os posts) sempre fiquem alinhadas pro topo */
+}
+
+@media (max-width: 768px) { /*Deixar a tela responsiva*/
+    html {
+        font-size: 87.5%;
+    }
+
+    .wrapper {
+        grid-template-columns: 1fr;
+    }
+}
